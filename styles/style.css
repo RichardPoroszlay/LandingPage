@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    padding: 15px 200px 0 200px;
+    padding: 15px 200px 130px 200px;
 }
 
 .header-logo {
@@ -31,3 +31,51 @@ a {
     color: #E5E7EB;
 }
 
+.main-section {
+    display: flex;
+    padding: 0 200px 100px 200px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.welcome-text {
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.welcome-text h1 {
+    font-size: 80px;
+    font-weight: 800px;
+    color: #F9FAF8;
+}
+
+.welcome-text p {
+    font-size: 25px;
+    color: #E5E7EB;
+}
+
+.welcome-text button {
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.welcome-text button:hover {
+    background-color: #81aaeb;
+}
+
+.placeholder {
+    display: flex;
+    flex: 1 1 0px;
+}
+
+.placeholder img {
+    object-fit: cover;
+    width: 100%;
+}
