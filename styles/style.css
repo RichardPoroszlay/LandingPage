@@ -131,3 +131,44 @@ a {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 100px;
+}
+
+.section-four .sign-up-box {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.sign-up-box {
+    display: flex;
+    padding: 50px 250px;
+    border-radius: 30px;
+    gap: 100px;
+}
+
+.sign-up-box .text-section .upper-text {
+    font-weight: bold;
+}
+
+.sign-up-box button {
+    width: 150px;
+    height: 40px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: solid #E5E7EB;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.sign-up-box button:hover {
+    background-color: #81aaeb;
+}
