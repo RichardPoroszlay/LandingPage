@@ -111,3 +111,23 @@ a {
     padding-top: 10px;
     text-align: center;
 }
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 200px;
+}
+
+.section-three .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    align-self: center;
+}
+
+.section-three .author {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-end;
+}
