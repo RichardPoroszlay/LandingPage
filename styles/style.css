@@ -172,3 +172,15 @@ a {
 .sign-up-box button:hover {
     background-color: #81aaeb;
 }
+
+.section-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+.section-five .copyright {
+    color: #E5E7EB;
+}
